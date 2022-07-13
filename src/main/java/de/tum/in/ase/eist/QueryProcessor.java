@@ -1,4 +1,4 @@
-package de.tum.in.ase.eist;
+package main.java.de.tum.in.ase.eist;
 
 import org.springframework.stereotype.Service;
 
@@ -14,6 +14,8 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
            return "MyTeam";
         } else { // TODO extend the programm here
+
+
             return "";
         }
     }
